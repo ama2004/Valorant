@@ -28,11 +28,37 @@
             </ul>
         </ol>
         <a href="https://playvalorant.com/en-us/agents/sage/">Link to Sage Website</a>
-        
     </div>
+
     <form>
-        <p>Have you played Valorant?</p>
-    <input type="question" name ="" value="">
+        <!-- radio -->
+        <h4>Have you tried playing Sage in Valorant?</h4>
+        <input type="radio" id="valo" name="sage" value="HTML">
+        <label for="valo">Yes</label>
+        <br>
+        <input type="radio" id="valo" name="sage" value="HTML">
+        <label for="valo">No</label>
+        </br>
+
+        <!-- select -->
+        <br>
+        <h4>What other Sentinel agents should I do?</h4>
+        <select id="sentinels">
+            <option value="kj">Killjoy</option>
+            <option value="cy">Cypher</option>
+        </select>
+        </br>
+
+        <!-- text -->
+        <br>
+        <h4>Please let me know what other agents(from other classes, like Duelists, Controllers, and Initiators) you want me to do.</h4>
+        <label for="agents">Other Agents: </label>
+        <input type="text" id="agents" name="classes">
+        
+        <!-- submit -->
+        <br>
+        <input type="submit" value="Submit">
+        </br>
     </form>
 
 </body>
